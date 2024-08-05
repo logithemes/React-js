@@ -1,0 +1,372 @@
+/*-------------------------------------------------------*/
+/* When the browser is 1200px to all small screens,below css will be applied.
+/*-------------------------------------------------------*/
+
+@media screen and (max-width: 1200px) {
+  .abt-student .strdent-sign{right: 0;}
+  .inn_ideas {
+    padding: 20px;
+}
+.testimonials::before{width: 79%;}
+.contact_img img {
+  margin-left: 0;
+}
+.nav_bar .container{max-width: 100%;}
+ 
+    }
+    
+    
+    /*-------------------------------------------------------*/
+    /* When the browser is 992px to all small screens,below css will be applied.
+    /*-------------------------------------------------------*/
+    
+    @media screen and (max-width: 992px) {
+      .about_us{padding-left: 0;}
+      .footer-heading {
+        font-size: 65px;
+        line-height: 60px;
+    }
+      
+
+      .footer_main {
+     
+        float: left;
+        width: 100%;
+        background: #333;
+    }
+      .side_bar .deafult_style{        border: 0;
+        background: #3c3ddc;
+        top: 0;
+        border-radius: 0;
+        height: 2px;
+        margin: 2px 0;
+        padding: 1px 0;
+        height: 1px;
+        width: 100%;
+        position: relative;}
+      .contact_img {
+       
+
+        margin-top: 51px;
+    }
+      .testimonials::before {
+        width: 100%;
+    }
+      .theme_heading .main_heading {
+        font-size: 40px;
+        line-height: 53px;
+    }
+      .innovation {
+        text-align: center !important;
+    }
+    .inn_ideas{text-align: center !important;}
+      .services_boxes li {
+        border-right: 0;
+        border-bottom: 1px solid #e5d9d9 !important;
+    }
+      .services_boxes ul {
+      
+        grid-template-columns: repeat(1, 100%);
+       
+    }
+
+    .services_boxes {
+      padding-top: 25px;
+  }
+
+  .services_boxes ul li:nth-child(4){padding-bottom: 0;border-bottom: 0 !important;}
+
+      .about_img {
+        padding-right: 0;
+        margin-top: 39px;
+    }
+    .about_img img {
+      border-radius: 300px;
+      width: 100%;
+  }
+      .banner_text {
+        text-align: center;
+    }
+    .banner_img {
+      padding-left: 0;
+      margin: 0 auto;
+      display: table;        margin-top: 40px;
+  }
+
+
+      .nav_bar.fix-menu .side_bar{color: #fff !important;}
+      .nav_bar.fix-menu .nav_links a{color: #fff !important;}
+
+      .close_button{        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50px;}
+      
+      .nav_bar{background-color: #fff;}
+      .menu_bar, .side_bar span{        display: block !important;
+        position: absolute;
+        left: 12px;
+        width: 35px;
+        height: 35px;
+        background: #3c3ddc;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+    .menu_click{margin-left: 0;display: block !important;}
+    .side_bar span {
+      left: auto;
+      right: 0;
+      top: -19px;
+      color: #000;
+      background-color: unset;
+      border: 1px solid #000;
+  }
+    .logo img{filter: none;}
+
+        .side_bar{           position: absolute;
+          margin-right: 0 !important;    background-color: #e6e6f4;
+          right: 15px;
+          width: 35px;
+          height: 35px;
+          border-radius: 5px;padding: 6px 8px;}
+          .logo{text-align: center;}
+        .nav_bar .d-flex{justify-content: center  !important;}
+        .nav_links .d-flex{        display: block ! IMPORTANT;}
+   
+      .nav_bar .container{max-width: 100%;}
+      
+     
+    .popup_img .round {
+      width: 15%;
+      transform: none;
+      z-index: 1;
+      right: -5px;
+      top: 190px;
+  }
+  .popup_img .pop_img1 {
+    right: -66px;
+   
+    width: 39%;
+}
+
+
+.side_bar i{display: none;}
+
+.nav_links {
+  float: left;
+  background: #fff;
+  position: fixed !important;
+  bottom: 0;
+  top: 0;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+  padding: 60px 30px 50px 30px;
+  z-index: 20;
+  width: 320px;
+  left: -500px;
+  transition: all 0.9s ease;
+  border-radius: 0px;
+  box-shadow: -14px 7px 21px -14px #33333336;height: 100vh;
+}
+
+.nav_links ul {
+  box-shadow: none;
+}
+.nav_links li{        width: 100%;
+  margin: 8px 0;
+  padding: 7px 0 13px 0px;
+  position: relative;
+  border-bottom: 1px solid #666262;
+  transition: all 0.4s ease;float: left;}
+  
+  .nav_links a{        width: 100%;
+    float: left;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 14px;
+    position: relative;
+    z-index: 2;
+    color: #fff;}
+
+
+    .nav_links.menuact {
+      left: 0;
+      z-index: 99;
+      background: #16243d;
+  }
+
+  }
+    
+    
+    /*-------------------------------------------------------*/
+    /* When the browser is 767px to all small screens,below css will be applied.
+    /*-------------------------------------------------------*/
+    
+    @media screen and (max-width: 767px) {
+      .contact-card{padding-left: 0;}
+      .offcanvas-body{width: 100%;}
+      .footer-heading {
+        font-size: 60px;
+        line-height: 78px;
+    }
+      footer{padding-left: 0;padding-right: 0;}
+      .contact__us .form_controls .form-control{margin: 8px 0;}
+      .form-check{margin: 25px 0;}
+      .mb-3{margin-bottom: 0 !important;}
+      .contact__us .col-lg-8{padding-right: 0;}
+
+      .pb_120{padding-bottom: 100px;}
+      .pt_120{padding-top: 100px;}
+      .services_boxes li{padding-left: 0;}
+      .s_box_img{left: 0;}
+     
+.banner_text h1 {
+    font-size: 55px;
+    line-height: 80px;
+}
+.banner {
+  padding: 140px 0 80px 0;
+}
+
+.theme_heading .main_heading {
+  font-size: 32px;
+  line-height: 40px;
+}
+.footer_main{padding: 0;}
+.case_studies_box ul {
+  padding-top: 25px;
+}
+    }
+    
+    
+    /*-------------------------------------------------------*/
+    /* When the browser is 576px to all small screens,below css will be applied.
+    /*-------------------------------------------------------*/
+    
+    @media screen and (max-width: 576px) {
+      .case_studies{padding: 0 20px;}
+      .team .theme_heading {
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+      .img_group{display: none;}
+      .testimonials::before{background-image: url(./assets//images/background/sc.jpg);background-size: cover;        height: 28%;}
+    
+      .pr_1 p {
+   
+        padding: 0 20px;
+    }
+     
+      .pb_120{padding-bottom: 100px;}
+      .pt_120{padding-top: 100px;}
+      .container{padding-left: 20px;padding-right: 20px;max-width: 100%;}
+      
+    
+     
+    }
+    
+    /*-------------------------------------------------------*/
+    /* When the browser is 480px to all small screens,below css will be applied.
+    /*-------------------------------------------------------*/
+    
+    @media screen and (max-width: 480px) {
+      .testimonial-img{padding: 30px 20px;}
+
+      .pt_120{padding-top: 80px;}
+      .pb_120{padding-bottom: 80px;}
+
+      .abt-name-det{    width: 87%;
+        padding-left: 17px;}
+        .abt-student .strdent-sign{    transform: scale(0.7);right: -28px;}
+      .ser_details {
+        padding-left: 120px;
+    }
+      
+      .banner_text h1 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+    }
+
+
+
+          /*-------------------------------------------------------*/
+    /* When the browser is 400px to all small screens,below css will be applied.
+    /*-------------------------------------------------------*/
+
+    @media screen and (max-width: 400px) {
+      .footer-heading {
+        font-size: 35px;
+        line-height: 45px;
+    }
+      .inn_ideas h3 {
+        font-size: 24px;
+        
+    }
+
+    .inn_ideas p {
+      color: #fff;
+      padding-top: 7px;
+  }
+
+  .inn_ideas p {
+ 
+    padding-bottom: 10px;
+}
+      .inn_ideas {
+        padding: 10px 0 10px 0;
+    }
+      .theme_heading .main_heading, .team .theme_heading .main_heading{
+        font-size: 27px;
+        line-height: 37px;
+    }
+
+      .s_box {
+    
+        flex-direction: column;
+        text-align: center;        margin-bottom: 10px;
+    }
+
+    .s_box_img{position: relative;margin-bottom: 21px;}
+    .services_boxes li{padding-right: 0;}
+
+      .ser_details {
+        padding-left: 0;
+    }
+      
+    
+    }
+
+    
+        /*-------------------------------------------------------*/
+    /* When the browser is 370px to all small screens,below css will be applied.
+    /*-------------------------------------------------------*/
+
+    @media screen and (max-width: 370px) {
+
+      .banner_text h1 {
+        font-size: 40px;
+        line-height: 56px;
+    }
+      
+    
+    }
+
+
+          /*-------------------------------------------------------*/
+    /* When the browser is 330px to all small screens,below css will be applied.
+    /*-------------------------------------------------------*/
+
+    @media screen and (max-width: 350px) {
+
+      .abt-student .strdent-sign{display: none;}
+      .banner_text h1 {
+        font-size: 36px;
+        line-height: 54px;
+    }
+    
+    }

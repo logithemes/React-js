@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+	--primary: #fff;
+	--secondary: #000;
+	--btn: #3c3ddc;
+  --color-primary-rgb: 144, 202, 249; 
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-style: inherit;
+  font-variant: inherit;
+  font-stretch: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+/* Root Elements */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600 !important;
+  font-family: "Poppins", sans-serif;    font-size: 30px !important;margin: 13px 0;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+p {
+  line-height: 27px;
+  font-size: 15px;
+  
+}
+ul,ol{padding: 0;margin: 0;}
+
+.container {
+  position: relative;
+}
+.float{float: left;width: 100%;}
+a{text-decoration: none;}
+/*---=================================
+   <!--Spacing  Area Css-->
+==================================---*/
+.pt_60{padding-top: 60px;}
+.pt_80{padding-top: 80px;}
+.pt_100{padding-top: 100px;}
+.pt_120{padding-top: 120px;}
+
+
+.pb_30{padding-bottom: 30px;}
+.pb_40{padding-bottom: 40px;}
+.pb_60{padding-bottom: 60px;}
+.pb_80{padding-bottom: 80px;}
+.pb_100{padding-bottom: 100px;}
+.pb_120{padding-bottom: 120px;}
+
+
+
+/* NAV */
+
+.logo img{max-width: 80%;}
+
+.nav_links a{color: #000;}
+
+.nav_links li{padding: 0 20px;text-transform: capitalize;}
+.nav_links ul li:last-child{padding-right: 0;}
+.nav_links ul li:first-child{padding-left: 0;}
+
+.menu_click{margin-left: 14px;}
+.chat{    margin-right: 5px;}
+.nav_bar{    padding: 15px 0;}
+.nav_bar{top: 0;left: 0;right: 0;}
+
+/*-------------------------------------------------*/
+/* section-title and buttons
+/*-------------------------------------------------*/
+
+.theme-btn {
+  position: relative;
+  text-transform: capitalize;
+  margin: 55px 0 0 0;
+  display: inline-block;
+}
+
+.theme-btn a {
+  padding: 25px 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  position: relative;
+  transition: all 0.5s ease;
+  background: var(--btn);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 10;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.theme-btn a::before,
+.price-list a::before {
+  position: absolute;
+  height: 2px;
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: transform 0.3s ease-in-out;
+  transform: scalex(0);
+  background: #ff00d5;
+  height: 100%;
+  z-index: 0;
+  border-radius: 5px;
+  transform-origin: right;
+}
+.theme-btn a:hover:before {
+  transform: scalex(1);
+  transform-origin: left;
+}
+
+.theme-btn a:hover span {
+  text-decoration: none;
+  color: #fff;
+}
+.theme-btn span {
+  position: relative;
+  z-index: 1;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 17px;
+}
+
+
+/* banner */
+.hero_section{background-image: url(../src/assets/images/background/bg1.webp);    padding: 200px 0 0 0;}
+.hero_text{}
+.hero_text h1{}
+.hero_text p{}
+.video{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+
