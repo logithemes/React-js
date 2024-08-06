@@ -3,6 +3,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import Button from 'react-bootstrap/Button'; // Import Button component if needed
 import ContactCard from './ContactCard'; // Make sure the path is correct based on your file structure
 
+
 function OffCanvasExample({ show, handleClose, ...props }) {
   return (
     <Offcanvas show={show} onHide={handleClose} {...props}>

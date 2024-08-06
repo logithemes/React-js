@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import MyVerticallyCenteredModal from '../src/MyVerticallyCenteredModal';
 
+
 function Footer() {
   const [modalShow, setModalShow] = useState(false);
 

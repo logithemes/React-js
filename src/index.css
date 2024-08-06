@@ -135,12 +135,12 @@ a{text-decoration: none;}
 .nav_links a::before {
 	content: '';
 	position: absolute;
-	height: 20px;
+	height: 2px;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	transition: transform 0.3s ease-in-out;
-	background: #FFDC60;
+	background: #5956e9;
 	transform: scalex(0);
 	/* top: 0; */
 	transform-origin: right;z-index: -1;
