@@ -11,7 +11,7 @@ function Footer() {
         <div className="container">
           <h2 className="footer-heading">Schedule a demo</h2>
           <p className="footer-subtext">
-            Discover how Tedy can boost your benefits and energize your corporate culture.
+            Discover how Tedy can boost your benefits and energize your and corporate culture.
           </p>
           <button onClick={() => setModalShow(true)} className="footer-button">Watch A Demo</button>
           <div className="footer-bottom">

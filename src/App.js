@@ -58,7 +58,7 @@ function App() {
         <Route path="/team" element={<Team></Team>} />
       
         <Route path="/contact" element={<ContactUs />} />
-        {/* Add other routes as needed */}
+       
       </Routes>
     </Router>
   );
