@@ -52,7 +52,7 @@ function CaseStudies() {
                             </div>
                             <div className='case_details'>
                                
-                            <i class="bi bi-arrow-up-right-circle"></i>
+                            <i className="bi bi-arrow-up-right-circle"></i>
                                 <h3>it solution for <br /> business</h3>
                             </div>
                         </div>
@@ -64,7 +64,7 @@ function CaseStudies() {
                             </div>
                             <div className='case_details'>
                                
-                            <i class="bi bi-arrow-up-right-circle"></i>
+                            <i className="bi bi-arrow-up-right-circle"></i>
                                 <h3>Data Backup <br /> Solutions</h3>
                             </div>
                         </div>
@@ -76,7 +76,7 @@ function CaseStudies() {
                             </div>
                             <div className='case_details'>
                                
-                            <i class="bi bi-arrow-up-right-circle"></i>
+                            <i className="bi bi-arrow-up-right-circle"></i>
                                 <h3>Help Desk <br /> Optimization</h3>
                             </div>
                         </div>
@@ -89,7 +89,7 @@ function CaseStudies() {
                             </div>
                             <div className='case_details'>
                                
-                            <i class="bi bi-arrow-up-right-circle"></i>
+                            <i className="bi bi-arrow-up-right-circle"></i>
                                 <h3>Help Desk <br /> Optimization</h3>
                             </div>
                         </div>
@@ -101,7 +101,7 @@ function CaseStudies() {
                             </div>
                             <div className='case_details'>
                                
-                            <i class="bi bi-arrow-up-right-circle"></i>
+                            <i className="bi bi-arrow-up-right-circle"></i>
                                 <h3>Help Desk <br /> Optimization</h3>
                             </div>
                             

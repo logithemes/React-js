@@ -13,7 +13,7 @@ function OffCanvasExample({ show, handleClose, ...props }) {
       <Offcanvas.Body>
         <ContactCard />
         <Button  variant="secondary" onClick={handleClose} className="mt-3 close_btn">
-        <i class="bi bi-x"></i>
+        <i className="bi bi-x"></i>
         </Button>
       </Offcanvas.Body>
     </Offcanvas>

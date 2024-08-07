@@ -7,7 +7,7 @@ import './responsive.css';
 
 import Nav  from './Nav';
 import Banner from './Banner';
-import About_Us from './About_Us';
+import AboutUs from './AboutUs';
 import Services from './Services'
 import CaseStudies from './CaseStudies'
 import Innovation from './Innovation';
@@ -35,7 +35,7 @@ function App() {
           <MainLayout>
         <Nav/>
         <Banner/>
-        <About_Us/>
+        <AboutUs/>
        <Services/>
        <CaseStudies/>
        <Innovation/>
@@ -49,8 +49,8 @@ function App() {
           </MainLayout>
         } />
 
-         <Route path="/about" element={<About_Us />} />
-         <Route path="/about" element={<About_Us />} />
+         <Route path="/about" element={<AboutUs />} />
+         <Route path="/about" element={<AboutUs />} />
          <Route path="/Services" element={<Services />} />
        
         <Route path="/projects" element={<CaseStudies></CaseStudies>} />

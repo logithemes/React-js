@@ -1,6 +1,6 @@
 import React from 'react';
 
-function About_Us() {
+function AboutUs() {
   return (
     <div className='float pt_120 pb_120' id='about'>
       <div className='container'>
@@ -11,7 +11,7 @@ function About_Us() {
             </div>
           </div>
           <div className='col-md-12 col-lg-6 order-1 order-lg-2'>
-            <div className='about_us'>
+            <div className='AboutUs'>
               <div className='theme_heading text-left' data-aos="fade-up" data-aos-duration="800">
                 <span className='sub d-block'>
                   <span className='l1'></span> about us <span className='l1 l2'></span>
@@ -41,11 +41,11 @@ function About_Us() {
                     </div>
                   </li>
                 </ul>
-                <div class="abt-student" bis_skin_checked="1" data-aos="fade-up" data-aos-duration="800">
+                <div className="abt-student" bis_skin_checked="1" data-aos="fade-up" data-aos-duration="800">
               <img src={require('./assets/images/testimonials/1.png')} alt="" />
-                <div class="abt-name-det" bis_skin_checked="1">
+                <div className="abt-name-det" bis_skin_checked="1">
                   <h5>Alexardy Ditartina</h5>
-                  <span class="abt">( Chairman / Principle )</span>
+                  <span className="abt">( Chairman / Principle )</span>
                 </div>
                <img className='strdent-sign' src={require('./assets/images/brands/1.png')} alt="" />
               </div>
@@ -60,4 +60,4 @@ function About_Us() {
   );
 }
 
-export default About_Us;
+export default AboutUs;

@@ -6,7 +6,7 @@ function Innovation() {
     <div className='container'>
         <div className='row align-items-center'>
             
-        <div class="theme_heading text-center col-lg-12  aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" bis_skin_checked="1"><span class="sub d-block">Our Features</span><h2 class="main_heading">We Specialize in Crafting <br />
+        <div className="theme_heading text-center col-lg-12  aos-init aos-animate" data-aos="fade-up" data-aos-duration="600" bis_skin_checked="1"><span className="sub d-block">Our Features</span><h2 className="main_heading">We Specialize in Crafting <br />
         Digital Experiences</h2></div>
         <div className='row row1 align-items-center'>
         <div className='col-md-12 col-lg-4 ho_light'>

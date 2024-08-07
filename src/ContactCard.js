@@ -21,7 +21,7 @@ function ContactCard() {
           <span className="star1">★</span> +81 800 123 456 78
         </div>
         <div className="contact-item">
-          <span className="star1">★</span> Domainnames.com
+          <span className="star">★</span> Domain@gmail.com
         </div>
       </div>
     </div>

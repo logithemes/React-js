@@ -67,7 +67,7 @@ function Services() {
                       <p>{service.description}</p>
                       {service.linkText && (
                         <a href="#">
-                          {service.linkText}<i class="bi bi-arrow-right"></i>
+                          {service.linkText}<i className="bi bi-arrow-right"></i>
                         </a>
                       )}
                     </div>

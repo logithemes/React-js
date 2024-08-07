@@ -250,7 +250,7 @@ a{text-decoration: none;}
   bottom: 0;
   left: 0;
   right: 0;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.5s ease-in-out;
   transform: scalex(0);
   background: #FFDC60;
   height: 100%;
@@ -491,6 +491,7 @@ a{text-decoration: none;}
 .case_studies_box{    overflow: hidden;
 
 }
+.case_studies_box ul{    cursor: -webkit-grab;}
 .projects{overflow: hidden;}
 
 .projects:hover .case_details{    transition: all 0.5s ease;
