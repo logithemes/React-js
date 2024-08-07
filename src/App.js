@@ -16,7 +16,7 @@ import Team from './Team'
 import ContactUs from './ContactUs';
 import Footer from './Footer'
 
-import MyVerticallyCenteredModal from './MyVerticallyCenteredModal';
+
 import OffCanvasExample from './OffCanvasExample';
 
 
