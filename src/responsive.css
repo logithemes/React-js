@@ -3,6 +3,7 @@
 /*-------------------------------------------------------*/
 
 @media screen and (max-width: 1200px) {
+  .hover_img{opacity: 1;}
   .abt-student .strdent-sign{right: 0;}
   .inn_ideas {
     padding: 20px;
@@ -21,6 +22,7 @@
     /*-------------------------------------------------------*/
     
     @media screen and (max-width: 992px) {
+      .logo img{max-width: 70%;}
       .about_us{padding-left: 0;}
       .footer-heading {
         font-size: 65px;
@@ -206,6 +208,7 @@
     /*-------------------------------------------------------*/
     
     @media screen and (max-width: 767px) {
+      .modal-body .col-md-4{margin-bottom: 12px;}
       .contact-card{padding-left: 0;}
       .offcanvas-body{width: 100%;}
       .footer-heading {
@@ -247,6 +250,7 @@
     /*-------------------------------------------------------*/
     
     @media screen and (max-width: 576px) {
+      .footer{padding-left: 15px;padding-right: 15px;}
       .case_studies{padding: 0 20px;}
       .team .theme_heading {
         padding-bottom: 40px;
@@ -254,7 +258,7 @@
     }
 
       .img_group{display: none;}
-      .testimonials::before{background-image: url(./assets//images/background/sc.jpg);background-size: cover;        height: 28%;}
+      .testimonials::before{background-image: url(./assets//images/background/sc.jpg);background-size: cover;        height: 28%;top: 0;}
     
       .pr_1 p {
    

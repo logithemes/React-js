@@ -19,8 +19,8 @@ function Testimonials() {
     $(window).on('mousemove', function(e) {
       var w = $(window).width();
       var h = $(window).height();
-      var offsetX = 0.5 - e.pageX / w;
-      var offsetY = 0.5 - e.pageY / h / 10;
+      var offsetX = 0.5 - e.pageX / w / 15;
+      var offsetY = 0.5 - e.pageY / h / 15;
 
       $(".parallax").each(function(i, el) {
         var offset = parseInt($(el).data('offset'));

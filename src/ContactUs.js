@@ -42,7 +42,7 @@ function ContactUs() {
                     <Form.Group as={Col} md="6" controlId="validationCustomUsername">
                     
                       <InputGroup hasValidation>
-                        <InputGroup.Text id="inputGroupPrepend"></InputGroup.Text>
+                       
                         <Form.Control
                           type="text"
                           placeholder="Username"

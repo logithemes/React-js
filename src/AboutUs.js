@@ -1,8 +1,10 @@
 import React from 'react';
 
+
+
 function AboutUs() {
   return (
-    <div className='float pt_120 pb_120' id='about'>
+    <div className='float pt_120 ' id='about'>
       <div className='container'>
         <div className='row align-items-center'>
         <div className='col-md-12 col-lg-6 order-2 order-lg-1'>

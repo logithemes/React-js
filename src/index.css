@@ -114,6 +114,7 @@ a{text-decoration: none;}
 .pb_30{padding-bottom: 30px;}
 .pb_40{padding-bottom: 40px;}
 .pb_60{padding-bottom: 60px;}
+.pb_70{padding-bottom: 70px;}
 .pb_80{padding-bottom: 80px;}
 .pb_100{padding-bottom: 100px;}
 .pb_120{padding-bottom: 120px;}
@@ -219,7 +220,7 @@ ul{padding: 0  !important;}
   display: inline-block;
 }
 
-.theme-btn a, .contact__us .form_controls .btn{
+.theme-btn a, .contact__us .form_controls .btn, .modal-content .btn{
   padding: 22px 60px;
   text-decoration: none;
   font-weight: 600;
@@ -301,7 +302,7 @@ ul{padding: 0  !important;}
   left: -20px;
   filter: brightness(0.5);
 }
-.banner_text h1{font-size: 69px;line-height: 90px;position: relative;}
+.banner_text h1{font-size: 69px;line-height: 76px;position: relative;}
 .banner::before{    position: absolute;
   top: 0;
   left: 0;
@@ -314,7 +315,7 @@ ul{padding: 0  !important;}
   opacity: 0.102;
   z-index: -1;}
 
-.banner_text p{    display: inline-block;
+.banner_text p{    display: inline-block;color: #000;
   margin: 35px 0 0 0;
 }
 
@@ -417,7 +418,7 @@ ul{padding: 0  !important;}
 .abt-name-det .abt {
   font-size: 13px;
   float: left;
-  margin: -10px 0 0 0;
+  margin: 5px 0 0 0;
 }
 
 .abt-student .strdent-sign {
@@ -472,9 +473,16 @@ ul{padding: 0  !important;}
 .ser_details i{    margin: 5px 0 0 7px;
   display: inline-block;}
 
+  .case_studies_box .slick-dots li button{    width: 20px;
+    height: 20px;
+    color: #fff;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;}
 
-
-
+    .case_studies_box .slick-dots li button::before{left: auto;top: auto;}
 /* latest projects */
 
 .case_studies{background-color: #F2F2F8;;}
@@ -482,7 +490,8 @@ ul{padding: 0  !important;}
 .case_studies_box{    overflow: hidden;
 
 }
-.case_studies_box ul{    cursor: -webkit-grab;}
+.case_studies_box ul{    cursor: -webkit-grab;margin-top: 50px;    bottom: -97px;
+  padding-bottom: 52px !important;}
 .projects{overflow: hidden;}
 
 .projects:hover .case_details{    transition: all 0.5s ease;
@@ -640,7 +649,7 @@ ul{padding: 0  !important;}
 .img_group{    display: flex;
   align-items: center;
   justify-content: center;
- margin: 114px 0 0 0;padding: 100px 0 57px 0;
+ margin: 114px 0 0 0;padding: 100px 0 57px 0;top: 70px;
   position: relative;}
 
   /* team */
@@ -651,7 +660,7 @@ ul{padding: 0  !important;}
 .team_details h3{font-size: 22px;    margin: 0;transition-duration: 0.2s;opacity: 0;
   line-height: normal;}
 .team_details span{text-transform: uppercase;font-size: 15px;border-bottom: 1px solid #fff;float: left;width: 100%;    padding-bottom: 13px;transition-duration: 0.4s;opacity: 0;}
-.team_details ul{float: left;    padding-top: 16px;width: 100%;
+.team_details ul{float: left;    padding-top: 16px;width: 100%;margin-top: 10px;
 }
 
 
@@ -723,7 +732,7 @@ ul{padding: 0  !important;}
 .footer-heading {
   font-size: 80px;
   margin-bottom: 26px;
-  text-shadow: 1px 1px 10px #5956e9, 1px 1px 16px #5956e9;
+  /* text-shadow: 1px 1px 10px #5956e9, 1px 1px 16px #5956e9; */
 line-height: 75px;
 }
 
@@ -798,8 +807,8 @@ line-height: 75px;
 }
 .logo-text .canva_logo{    filter: invert(1);}
 .description {
-  margin: 20px 0;
-  font-size: 18px;
+  margin: 29px 0 36px 0;
+  font-size: 25px;
 }
 
 .offcanvas-body{background: #000;
@@ -809,7 +818,7 @@ line-height: 75px;
   position: fixed;padding: 36px;
   width: 400px; }
 
-  .star1{    color: gold;
+  .star1{    color: gold;font-size: 30px;
     margin-right: 10px;}
 .close_btn{        position: absolute;
   right: 39px;
@@ -819,7 +828,7 @@ line-height: 75px;
   margin: 0;
   width: 30px;
   height: 30px;
-  top: 33px;
+  top: 33px;padding: 0 !important;
   font-size: 21px;}
   .close_btn button{padding: 0;margin: 0;filter: invert(1);}
 .contact-info h3 {
@@ -853,3 +862,15 @@ line-height: 75px;
 .border-bottom{padding-bottom: 60px;}
 .form-control{    border: 1px solid #000;
   padding: 7px 10px 7px 14px;}
+  .modal-content{background-color: #e8ecf4 !important;padding: 35px;}
+  .modal-content .btn{background: var(--btn);    padding: 15px 40px;
+    font-size: 14px;
+    margin-top: 13px;}
+  .modal-content .form-label{display: none;}
+  .modal-content .textarea.form-control{}
+
+.add_css{}
+.add_css .adding{}
+
+
+  

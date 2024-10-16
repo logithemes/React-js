@@ -31,7 +31,7 @@ function CaseStudies() {
     };
 
   return (
-    <div className='float case_studies pt_120 pb_120'>
+    <div className='float case_studies pt_120 pb_80'>
    
 
 

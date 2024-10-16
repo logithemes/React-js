@@ -50,7 +50,7 @@ function Nav() {
           </div>
           <div className={`nav_links ${menuActive ? 'menuact' : ''}`}>
             <ul className='d-flex align-items-center justify-content-center'>
-              <li><Link to="/home">home</Link></li>
+              <li><Link to="">home</Link></li>
               <li><Link to="/about">about</Link></li>
               <li><Link to="/services">services</Link></li>
               <li><Link to="/projects">Portfolio</Link></li>
