@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './index.css';
 import './responsive.css';
-
 import Nav from './Nav';
 import Banner from './Banner';
 import AboutUs from './AboutUs';
