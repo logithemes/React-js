@@ -1,8 +1,13 @@
 /*-------------------------------------------------------*/
 /* When the browser is 1200px to all small screens,below css will be applied.
 /*-------------------------------------------------------*/
+@media screen and (max-width: 1300px) {
+
+}
+
 
 @media screen and (max-width: 1200px) {
+  /* .services{padding-bottom: 0 !important;} */
   .hover_img{opacity: 1;}
   .abt-student .strdent-sign{right: 0;}
   .inn_ideas {
@@ -13,6 +18,7 @@
   margin-left: 0;
 }
 .nav_bar .container{max-width: 100%;}
+.services{padding-bottom: 0 !important;}
  
     }
     
@@ -22,6 +28,7 @@
     /*-------------------------------------------------------*/
     
     @media screen and (max-width: 992px) {
+      .nav_links a::before{opacity: 0;visibility: hidden;}
       .logo img{max-width: 70%;}
       .about_us{padding-left: 0;}
       .footer-heading {
@@ -250,6 +257,7 @@
     /*-------------------------------------------------------*/
     
     @media screen and (max-width: 576px) {
+      .footer_main{padding-top: 0 !important;}
       .footer{padding-left: 15px;padding-right: 15px;}
       .case_studies{padding: 0 20px;}
       .team .theme_heading {
@@ -278,6 +286,7 @@
     /*-------------------------------------------------------*/
     
     @media screen and (max-width: 480px) {
+      .banner .shpaes1{top: 7%;left: 2%;width: 80px;height: 80px;}
       .testimonial-img{padding: 30px 20px;}
 
       .pt_120{padding-top: 80px;}

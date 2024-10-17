@@ -18,7 +18,7 @@ function ContactUs() {
   };
 
   return (
-    <div className='float contact__us pt_120 pb_120'>
+    <div className='float contact__us pt_150 '>
       <div className='container'>
         <div className='row'>
           <div className='col-lg-12'>

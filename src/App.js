@@ -31,7 +31,7 @@ function App() {
         <Route
           path="/"
           element={
-        <MainLayout>
+            <MainLayout>
               <Nav />
               <Banner />
               <AboutUs />
@@ -47,13 +47,75 @@ function App() {
           }
         />
 
-        {/* Individual routes for each component */}
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/projects" element={<CaseStudies />} />
-        <Route path="/testimonials" element={<Testimonials />} />
-        <Route path="/team" element={<Team />} />
-        <Route path="/contact" element={<ContactUs />} />
+        {/* Individual routes for each component using all elements */}
+        <Route
+  path="/about"
+  element={
+    <MainLayout>
+      <Nav />
+      <AboutUs />
+      <Footer  />
+    </MainLayout>
+  }
+/>
+
+
+        <Route
+          path="/services"
+          element={
+            <MainLayout>
+              <Nav />
+              <Services />
+              <Footer className="custom-footer">
+                <div className='footer_main fo1'></div>
+              </Footer>
+            </MainLayout>
+          }
+        />
+
+        <Route
+          path="/projects"
+          element={
+            <MainLayout>
+              <Nav />
+              <CaseStudies />
+              <Footer />
+            </MainLayout>
+          }
+        />
+
+        <Route
+          path="/testimonials"
+          element={
+            <MainLayout>
+              <Nav />
+              <Testimonials />
+              <Footer />
+            </MainLayout>
+          }
+        />
+
+        <Route
+          path="/team"
+          element={
+            <MainLayout>
+              <Nav />
+              <Team />
+              <Footer />
+            </MainLayout>
+          }
+        />
+
+        <Route
+          path="/contact"
+          element={
+            <MainLayout>
+              <Nav />
+              <ContactUs />
+              <Footer />
+            </MainLayout>
+          }
+        />
       </Routes>
     </Router>
   );

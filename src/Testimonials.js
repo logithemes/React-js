@@ -67,7 +67,7 @@ function Testimonials() {
   };
 
   return (
-    <div className='float pt_120 pb_120 testimonials'>
+    <div className='float pt_120  testimonials'>
       <div className='container'>
         <div className='row'>
           <div className="theme_heading text-center col-lg-12" data-aos="fade-up" data-aos-duration="600">

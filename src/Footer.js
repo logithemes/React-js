@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import MyVerticallyCenteredModal from '../src/MyVerticallyCenteredModal';
-
+import Services from './Services';
 
 function Footer() {
   const [modalShow, setModalShow] = useState(false);
 
   return (
-    <div className='footer_main'>
+    <div className='footer_main pt_120 float'>
       <div className="footer float pt_80 pb_80">
         <div className="container">
           <h2 className="footer-heading">Schedule a demo</h2>

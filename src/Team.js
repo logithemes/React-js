@@ -12,6 +12,7 @@ const teamMembers = [
 
 function Team() {
   return (
+    <div className='float team_main pt_120'>
     <div className='float team pt_120 pb_120'>
       <div className='container'>
         <div className='row align-items-center'>
@@ -51,6 +52,7 @@ function Team() {
         </div>
       </div>
     </div>
+     </div>
   );
 }
 

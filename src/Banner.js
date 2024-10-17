@@ -7,6 +7,7 @@ function Banner() {
 
   return (
     <div className='float banner'>
+      <span className='shpaes1'></span> 
       <div className='container'>
         <div className='row align-items-center'>
           <div className='col-md-12 col-lg-6'>

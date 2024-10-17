@@ -5,7 +5,7 @@ import ic2 from './assets/images/icons/ic2.png';
 import ic5 from './assets/images/icons/ic5.png';
 import ic6 from './assets/images/icons/ic6.png';
 
-
+import Footer from './Footer';
 const servicesData = [
   {
     imgSrc: ic1,
@@ -42,7 +42,7 @@ const servicesData = [
 function Services() {
   return (
     <div className='float services pb_120 pt_120'>
-      <div className='container'>
+      <div className='container '>
         <div className='row'>
           <div className='col-lg-12'>
             <div className='theme_heading m_c_width text-center' data-aos="fade-up" data-aos-duration="600">
